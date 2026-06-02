@@ -61,10 +61,12 @@ Add images later above a project title with:
 <table>
   <tr>
     <td width="50%">
+      <img src="assets/Scholarmate.png" alt="Scholarmate SS" width="100%">
       <h3>ScholarMate</h3>
       <p><b>Offline-first AI research workspace</b></p>
       <p>RAG-powered workspace for semantic document search, PDF workflows, local/cloud sync, and Google Drive ownership.</p>
-      <p><a href="https://scholarmate.northsouth.app/">Live app</a></p>
+      <p><a href="https://scholarmate.northsouth.app/">Live demo</a> / <a href="https://github.com/rayedriasat/ScholarMate">Repository</a></p>
+      <p>
       <p>
         <img src="https://img.shields.io/badge/RAG-020617?style=flat-square&logoColor=00FF99">
         <img src="https://img.shields.io/badge/FastAPI-020617?style=flat-square&logo=fastapi&logoColor=00FF99">
@@ -74,6 +76,7 @@ Add images later above a project title with:
       <p><b>Impact:</b> faculty-trusted team lead, APMEE 2025 Best Session Performer.</p>
     </td>
     <td width="50%">
+      <img src="assets/duplex_webapp_demo.png" alt="Demo of the duplex webapp" width="100%">
       <h3>Pruning-SeamlessM4T</h3>
       <p><b>ML compression for multilingual speech translation</b></p>
       <p>Structured pruning and recovery pipeline for Meta SeamlessM4T v2, ending in a deployable duplex web app.</p>
@@ -88,6 +91,7 @@ Add images later above a project title with:
   </tr>
   <tr>
     <td width="50%">
+      <img src="assets/KajBuzz.png" alt="KajBuzz screenshot" width="100%">
       <h3>KajBuzz</h3>
       <p><b>Intelligent academic task planner</b></p>
       <p>AI-assisted scheduler that plans student work from deadlines, priorities, availability, Google Calendar, and Canvas LMS.</p>
@@ -101,6 +105,22 @@ Add images later above a project title with:
       <p><b>Impact:</b> smart scheduling, overload detection, Pomodoro, analytics, LMS sync.</p>
     </td>
     <td width="50%">
+      <img src="assets/lumina_walkthrough.gif" alt="Lumina Walkthrough gif" width="100%">
+      <h3>Lumina</h3>
+      <p><b>Offline course player PWA + desktop app</b></p>
+      <p>Zero-backend glassmorphism PWA that turns local course folders into a sequential learning experience with gamification, subtitle search, markdown notes, bookmarks, and a built-in PDF/HTML viewer.</p>
+      <p><a href="https://rayedriasat.github.io/lumina/">Live app</a> / <a href="https://github.com/rayedriasat/lumina">Repository</a></p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-020617?style=flat-square&logo=javascript&logoColor=F7DF1E">
+        <img src="https://img.shields.io/badge/Tauri-020617?style=flat-square&logo=tauri&logoColor=00D1FF">
+        <img src="https://img.shields.io/badge/PWA-020617?style=flat-square&logo=pwa&logoColor=00FF99">
+        <img src="https://img.shields.io/badge/Tailwind%20CSS-020617?style=flat-square&logo=tailwindcss&logoColor=00D1FF">
+      </p>
+      <p><b>Impact:</b> fully offline, File System Access API, activity heatmap, Netflix-style auto-proceed, speeds up to 3.5x.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
       <h3>RDS2 Simulator</h3>
       <p><b>Modern course search and filtering web app</b></p>
       <p>Polished GitHub Pages app for searching and filtering RDS2 course data with a sharper UI than the older planner.</p>
@@ -112,8 +132,6 @@ Add images later above a project title with:
       </p>
       <p><b>Impact:</b> live public utility for university course discovery and filtering.</p>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <h3>BloodConnect</h3>
       <p><b>Blood donation management system</b></p>
@@ -126,6 +144,8 @@ Add images later above a project title with:
       </p>
       <p><b>Impact:</b> donor/requester workflows, proximity matching, notification and admin flows.</p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <h3>Automation Toolkit</h3>
       <p><b>Scraping, bots, and workflow helpers</b></p>
@@ -138,6 +158,7 @@ Add images later above a project title with:
       </p>
       <p><b>Impact:</b> useful automation around real student and contest workflows.</p>
     </td>
+    <td width="50%"></td>
   </tr>
 </table>
 
@@ -169,6 +190,7 @@ Add images later above a project title with:
       <h3>CS50x</h3>
       <p><b>Harvard University</b></p>
       <p>Foundational computer science, C, Python, algorithms, web, SQL, and systems thinking.</p>
+      <img src="assets/CS50x cert.png" alt="CS50x cert screenshot" width="100%">
       <p><a href="https://cs50.harvard.edu/certificates/e34a2ad2-10c6-4dba-b480-3309c36df920">Verify certificate</a></p>
       <p><img src="https://img.shields.io/badge/Highlighted-020617?style=flat-square&logo=harvard&logoColor=00FF99"> <img src="https://img.shields.io/badge/CS50x-020617?style=flat-square&logo=edx&logoColor=00D1FF"></p>
     </td>
@@ -176,6 +198,7 @@ Add images later above a project title with:
       <h3>Supervised Machine Learning</h3>
       <p><b>DeepLearning.AI / Stanford Online</b></p>
       <p>Regression, classification, model evaluation, supervised learning foundations, and ML intuition.</p>
+      <img src="assets/Supervised ML cert.png" alt="Supervised ML cert screenshot" width="100%">
       <p><a href="https://www.coursera.org/account/accomplishments/records/CABAIJ27871G">Verify certificate</a></p>
       <p><img src="https://img.shields.io/badge/Machine%20Learning-020617?style=flat-square&logo=coursera&logoColor=00D1FF"> <img src="https://img.shields.io/badge/Stanford-020617?style=flat-square&logoColor=00FF99"></p>
     </td>
