@@ -168,11 +168,6 @@ so it never depends on a third-party widget staying online.</sub>
     <th align="left" width="30%">Stack</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/rayedriasat/rdsVanced">RDS2vanced</a><br><sub><a href="https://rayedriasat.github.io/rdsVanced/">live</a></sub></td>
-    <td>Interactive university schedule planner: browse courses, build conflict-free routines, export the week as an image.</td>
-    <td><sub>JavaScript &middot; Bootstrap &middot; GitHub Pages</sub></td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/rayedriasat/rds2simulator">RDS2 Simulator</a><br><sub><a href="https://rayedriasat.github.io/rds2simulator/">live</a></sub></td>
     <td>Fast course search and filtering over RDS2 data, built as a zero-dependency static app.</td>
     <td><sub>JavaScript &middot; Bootstrap &middot; GitHub Pages</sub></td>
