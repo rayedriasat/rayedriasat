@@ -306,7 +306,15 @@ so it never depends on a third-party widget staying online.</sub>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""></div>
 
-## ./contribution-snake
+<!-- ./contribution-snake ---------------------------------------------------
+
+The "Refresh profile" workflow publishes a snake animation of this
+contribution graph to the `output` branch. That branch does not exist until
+the workflow has run once, so this block stays commented out to avoid a
+broken image.
+
+To turn it on: merge to `main`, open Actions -> "Refresh profile" -> Run
+workflow, then delete the two comment markers around the block below.
 
 <div align="center">
 
@@ -315,6 +323,12 @@ so it never depends on a third-party widget staying online.</sub>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rayedriasat/rayedriasat/output/snake-light.svg">
   <img src="https://raw.githubusercontent.com/rayedriasat/rayedriasat/output/snake-dark.svg" alt="Snake eating my contribution graph" width="100%">
 </picture>
+
+</div>
+
+-------------------------------------------------------------------------- -->
+
+<div align="center">
 
 <img src="assets/divider.svg" width="100%" alt="">
 
