@@ -34,11 +34,15 @@
   </tr>
   <tr>
     <td><b>Recognition</b></td>
-    <td>ICPC Asia Dhaka Regionalist &middot; 100% merit scholarship &middot; APMEE 2025 Best Session Performer</td>
+    <td><b>ICPC Asia Dhaka Regionalist</b> &middot; 100% merit <b>scholarship</b> &middot; APMEE 2025 Best Session Performer</td>
   </tr>
   <tr>
     <td><b>Current mode</b></td>
     <td>Turning research ideas into polished software that real users can touch</td>
+  </tr>
+  <tr>
+    <td><b>Builds</b></td>
+    <td>RAG systems, AI agents, LVLM evaluation tooling, model compression and PEFT research, offline-first apps, workflow automation</td>
   </tr>
   <tr>
     <td><b>Open to</b></td>
@@ -216,18 +220,31 @@ so it never depends on a third-party widget staying online.</sub>
 
 <table>
   <tr>
-    <td width="30%"><b>Model compression</b></td>
-    <td>Structured pruning and recovery for large multilingual speech models, taken all the way to a deployable duplex app <sub>(<a href="https://github.com/rayedriasat/Pruning-SeamlessM4T">public</a>)</sub></td>
+    <td width="26%"><b>Model compression</b></td>
+    <td>Structured pruning and recovery fine-tuning for large multilingual speech models, carried through to a deployable duplex application &mdash; 39.7% fewer parameters at 1.84x speedup <sub>(<a href="https://github.com/rayedriasat/Pruning-SeamlessM4T">public</a>)</sub></td>
+  </tr>
+  <tr>
+    <td><b>Evaluation methodology</b></td>
+    <td>Placebo-controlled evaluation of training-free mitigation methods for vision-language models: convex-hull frontiers at matched coverage, paired bootstrap intervals, and a reproduction gate that pins every reported number to a banked run <sub>(private &middot; under review)</sub></td>
+  </tr>
+  <tr>
+    <td><b>Representation surgery</b></td>
+    <td>Covariance and activation statistics over transformer projection layers, aimed at editing model behaviour without retraining <sub>(private)</sub></td>
+  </tr>
+  <tr>
+    <td><b>Parameter-efficient fine-tuning</b></td>
+    <td>LoRA adapters over 4-bit quantised bases with control-arm ablations, gated scoring, and lift-over-control as the only headline metric <sub>(private)</sub></td>
   </tr>
   <tr>
     <td><b>Retrieval systems</b></td>
     <td>Offline-first RAG over personal document collections &mdash; chunking, embedding, and sync strategies that survive going offline</td>
   </tr>
-  <tr>
-    <td><b>Vision-language reliability</b></td>
-    <td>Diagnostics for hallucination in large vision-language models &mdash; manuscript in preparation <sub>(private repository)</sub></td>
-  </tr>
 </table>
+
+<sub><b>How the research work runs:</b> rented GPUs on RunPod and Vast.ai under explicit hourly budgets,
+resumable checkpoints, artifacts synced to cloud storage with rclone, environments pinned across
+Windows and Linux with pixi and uv, and an acceptance-gate test suite that must reproduce banked
+results before any number is trusted.</sub>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""></div>
 
@@ -244,15 +261,36 @@ so it never depends on a third-party widget staying online.</sub>
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 **AI / ML**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)
+![PEFT / LoRA](https://img.shields.io/badge/PEFT%20%2F%20LoRA-FF9D00?style=for-the-badge&logo=huggingface&logoColor=000)
+![bitsandbytes](https://img.shields.io/badge/bitsandbytes-8A2BE2?style=for-the-badge)
+![Accelerate](https://img.shields.io/badge/Accelerate-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)
+![Datasets](https://img.shields.io/badge/Datasets-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)
+![sentence-transformers](https://img.shields.io/badge/sentence--transformers-0B5FFF?style=for-the-badge)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
+![lm-eval](https://img.shields.io/badge/lm--eval%20harness-4B5563?style=for-the-badge)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+**GPU & Experiment Infrastructure**
+
+![RunPod](https://img.shields.io/badge/RunPod-7C3AED?style=for-the-badge)
+![Vast.ai](https://img.shields.io/badge/Vast.ai-00A3A3?style=for-the-badge)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
+![Hugging Face Hub](https://img.shields.io/badge/HF%20Hub-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)
+![rclone](https://img.shields.io/badge/rclone-3F79B9?style=for-the-badge&logo=rclone&logoColor=white)
+![tmux](https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white)
+![uv](https://img.shields.io/badge/uv-DE5FE9?style=for-the-badge&logo=uv&logoColor=white)
+![pixi](https://img.shields.io/badge/pixi-F59E0B?style=for-the-badge)
 
 **Frameworks & Platforms**
 
@@ -260,22 +298,27 @@ so it never depends on a third-party widget staying online.</sub>
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=000)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![HTMX](https://img.shields.io/badge/HTMX-3366CC?style=for-the-badge&logo=htmx&logoColor=white)
 
-**Data & Infra**
+**Data, Tooling & Publishing**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
+![MkDocs](https://img.shields.io/badge/MkDocs-526CFE?style=for-the-badge)
 
 </div>
-
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""></div>
 
 ## ./certificates
@@ -329,11 +372,11 @@ workflow, then delete the two comment markers around the block below.
 
 <b>Open to AI research, full-stack engineering, internships, and ambitious student-built products.</b>
 
-<br><br>
+<br>
 
 <a href="mailto:rayedriasat@gmail.com"><img src="https://img.shields.io/badge/Let's%20build%20something-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me"></a>
 
-<br><br>
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=rayedriasat&style=flat-square&color=34D399&label=Profile+views">
